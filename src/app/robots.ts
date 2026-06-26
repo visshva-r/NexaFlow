@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/api/"],
     },
-    sitemap: "https://nexaflow.app/sitemap.xml",
+    sitemap: "https://nexa-flow-beta.vercel.app/sitemap.xml",
   };
 }

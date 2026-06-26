@@ -18,7 +18,7 @@ const jetbrainsMono = JetBrains_Mono({
 const starterPrice = String(PRICING_CONFIG.tiers[0].baseRate);
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://nexaflow.app"),
+  metadataBase: new URL("https://nexa-flow-beta.vercel.app"),
   title: "NexaFlow - Next-Gen AI Data Automation Platform",
   description:
     "NexaFlow is an advanced AI-driven data automation platform. Orchestrate pipelines, sync endpoints, and scale operations with intelligent automation.",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://nexaflow.app",
+    url: "https://nexa-flow-beta.vercel.app",
     siteName: "NexaFlow",
     title: "NexaFlow - Next-Gen AI Data Automation Platform",
     description:
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     description: "Advanced AI-driven data automation for modern teams.",
   },
   robots: { index: true, follow: true },
-  alternates: { canonical: "https://nexaflow.app" },
+  alternates: { canonical: "https://nexa-flow-beta.vercel.app" },
 };
 
 export default function RootLayout({
