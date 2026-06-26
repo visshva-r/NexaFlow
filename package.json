@@ -1,0 +1,32 @@
+{
+  "name": "nexaflow",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port 3001",
+    "dev:3000": "next dev --port 3000",
+    "dev:3001": "next dev --port 3001",
+    "kill-port": "powershell -ExecutionPolicy Bypass -File ./scripts/free-port.ps1",
+    "dev:clean": "npm run kill-port && npm run dev",
+    "build": "next build",
+    "start": "next start",
+    "start:3001": "next start --port 3001",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^15.3.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "@types/react": "^19.1.6",
+    "@types/react-dom": "^19.1.5",
+    "eslint": "^9.28.0",
+    "eslint-config-next": "^15.3.3",
+    "postcss": "^8.5.4",
+    "tailwindcss": "^4.1.8",
+    "@tailwindcss/postcss": "^4.1.8",
+    "typescript": "^5.8.3"
+  }
+}
